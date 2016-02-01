@@ -1,0 +1,14 @@
+{
+  "version": "0.2.1",
+  "name": "soundOmath",
+  "description": "Playing Sound App",
+  "icons": {
+    "60": "images/favicon/firefox_app_60x60.png",
+    "128": "images/favicon/firefox_app_128x128.png",
+    "512": "images/favicon/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "Martin Guggisberg <https://twitter.com/mgje>",
+    "url": ""
+  }
+}
