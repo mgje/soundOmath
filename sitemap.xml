@@ -2,18 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://domain.tld/</loc>
-        <lastmod>2016-01-31T22:14:04.000Z</lastmod>
+        <lastmod>2016-02-06T20:30:15.000Z</lastmod>
     </url>
     <url>
-        <loc>http://domain.tld/soudOmath_mockV2.html</loc>
-        <lastmod>2016-01-31T12:08:31.000Z</lastmod>
+        <loc>http://domain.tld/indexold.html</loc>
+        <lastmod>2016-02-02T09:47:06.000Z</lastmod>
     </url>
     <url>
-        <loc>http://domain.tld/test.html</loc>
-        <lastmod>2016-01-21T22:23:07.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://domain.tld/test3.html</loc>
-        <lastmod>2016-01-21T22:23:07.000Z</lastmod>
+        <loc>http://domain.tld/sound-ios.html</loc>
+        <lastmod>2016-02-03T01:36:02.000Z</lastmod>
     </url>
 </urlset>
