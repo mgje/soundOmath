@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>soundOmath</title>
+
+	<link rel="stylesheet"  href="styles/bootstrap.css" >
+	<link rel="stylesheet" href="styles/font-awesome.css" >
+	<link rel="stylesheet" href="styles/main.css">
+
+	<meta property="og:title" content="soundOmath"/>
+	<meta property="og:url" content="http://mgje.github.io/soundOmath/"/>
+	<!-- <meta property="og:image" content=""/> -->
+	<meta property="og:site-name" content="soundOmath"/>
+	<meta property="og:description" content="Playing Sound App"/>
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@mgje">
+	<meta name="twitter:title" content="soundOmath">
+	<meta name="twitter:description" content="Playing Sound App">
+	<meta name="twitter:creator" content="@mgje">
+	<!-- <meta name="twitter:image:src" content=""> -->
+	
+
+	<link rel="yandex-tableau-widget" href="images/favicon/yandex-browser-manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon-180x180.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="soundOmath">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-chrome-192x192.png">
+	<link rel="manifest" href="images/favicon/manifest.json">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="transparent">
+	<meta name="application-name" content="soundOmath">
+	<link rel="icon" type="image/png" sizes="228x228" href="images/favicon/coast-228x228.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="230x230" href="images/favicon/favicon-230x230.png">
+	<link rel="shortcut icon" href="images/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="transparent">
+	<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+	<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="images/favicon/apple-touch-startup-image-320x460.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="images/favicon/apple-touch-startup-image-640x920.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="images/favicon/apple-touch-startup-image-640x1096.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="images/favicon/apple-touch-startup-image-750x1294.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="images/favicon/apple-touch-startup-image-1182x2208.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="images/favicon/apple-touch-startup-image-1242x2148.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="images/favicon/apple-touch-startup-image-748x1024.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="images/favicon/apple-touch-startup-image-768x1004.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="images/favicon/apple-touch-startup-image-1496x2048.png">
+	<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="images/favicon/apple-touch-startup-image-1536x2008.png">
+</head>
+<body>
+	<!--[if lt IE 8]>
+	    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	
+    
+    <!-- begin body part -->
+		<div class="wrapper full-page-wrapper page-auth page-register text-center ">
+		
+			<div class="logo">
+				<a href="http://www.fhnw.ch"><img src="images/FHNW_PH_10mm.png" alt=""></a>
+				<div class="separator"><span>sound O math</span></div>
+			</div>
+
+			
+			
+			<!-- <div class="center-block"> -->
+			<!-- <div class="row">
+				<div class="col-xs-6 pull-left">
+					<p class="bg-default  text-muted">Ton-Zahlenreihe 1 mit ID = TR1</p>
+				</div>
+			</div> -->
+			<div class="left7pixel right7pixel">
+				<div class="row" id="row1">
+					<div class="col-xs-3">
+						<div class="input-group">
+							<div class="input-group-btn">
+								<button id="btn-row1-1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-music" aria-hidden="true"></span> Zahl</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">6</a></li>
+									<li><a href="#">7</a></li>
+									<li><a href="#">8</a></li>
+									<li><a href="#">9</a></li>
+									<li><a href="#">Prim</a></li>
+
+								</ul>
+							</div>
+							<input type="text" class="form-control" aria-label="..." value="1">
+						</div><!-- End btn-group -->
+					</div>
+
+					<div class="col-xs-3">
+						<div class="input-group">
+							<div class="input-group-btn">
+								<button id="btn-row1-2" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+									<span class="glyphicon glyphicon-music" aria-hidden="true"></span> Zahl</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">0</a></li>
+									<li><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">6</a></li>
+									<li><a href="#">7</a></li>
+									<li><a href="#">8</a></li>
+									<li><a href="#">9</a></li>
+								</ul>
+							</div>
+							<input type="text" class="form-control" aria-label="..." value="3">
+						</div><!-- End btn-group -->
+					</div>
+
+					<div class="col-xs-3">
+						<div class="input-group">
+							<div class="input-group-btn">
+								<button id="btn-row1-3" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-music" aria-hidden="true"></span> Zahl</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">0</a></li>
+									<li><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">6</a></li>
+									<li><a href="#">7</a></li>
+									<li><a href="#">8</a></li>
+									<li><a href="#">9</a></li>
+								</ul>
+							</div>
+							<input type="text" class="form-control" aria-label="..." value="2">
+						</div><!-- End btn-group -->
+					</div>
+
+
+					<div class="col-xs-3">
+						<div class="input-group">
+							<div class="input-group-btn">
+								<button id="btn-row1-4" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-music" aria-hidden="true"></span> Zahl</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">0</a></li>
+									<li><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">6</a></li>
+									<li><a href="#">7</a></li>
+									<li><a href="#">8</a></li>
+									<li><a href="#">9</a></li>
+								</ul>
+							</div>
+							<input type="text" class="form-control" aria-label="..." value="1">
+						</div><!-- End btn-group -->
+					</div>
+				</div> <!-- Block -->
+
+				<br> 
+				
+				<div class="row">
+					<!-- Graphic Here -->
+					<br>
+					<div id="chart" class="col-xs-3 pull-left"></div>
+					<!-- End Graphic -->
+				</div>
+
+				<div class="row">
+				<!-- weitere Zahlenreihe -->
+					<button type="button" class="btn btn-primary col-xs3 pull-left">
+					<i class="fa fa-plus-square"></i><span>Ton-Zahlenreihe</span></button>
+				</div>
+				<br>
+				<div class="row">
+				<!-- Play Music -->
+					
+
+
+					<button id="playmusicbtn" type="button" class="btn btn-primary btn-lg">
+						  Play Sound !
+					</button>
+
+					<button id="stopmusicbtn" type="button" class="btn btn-primary btn-lg">
+						  Stop Now!
+					</button>
+
+
+					<!-- Button Parameter -->
+					<button id="parameterbtn" type="button" class="btn btn-primary btn-lg"
+					data-toggle="modal" data-target="#parameterModal">
+						  Parameter
+					</button>
+
+
+
+					<div class="modal fade" id="parameterModal" tabindex="-1" role="dialog" aria-labelledby="parameterModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">Parameter</h4>
+					      </div>
+					      <div class="modal-body">
+					        <h4>Oszillator</h4>
+					        <label class="control-inline fancy-radio">
+								<input name="oszform" type="radio" value="sine">
+									<span><i></i>sine</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="oszform" type="radio" value="square">
+									<span><i></i>square</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="oszform" type="radio" value="sawtooth">
+									<span><i></i>sawtooth</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="oszform" type="radio" value="triangle">
+								 	<span><i></i>triangle</span>
+							</label>
+							<h4>Speed</h4>
+							<label class="control-inline fancy-radio">
+								<input name="speed" type="radio" value="1.5">
+									<span><i></i>1.5</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="speed" type="radio" value="1">
+									<span><i></i>1</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="speed" type="radio" value="0.75">
+									<span><i></i>0.75</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="speed" type="radio" value="0.5">
+								 	<span><i></i>0.5</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="speed" type="radio" value="0.3">
+								 	<span><i></i>0.3</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="speed" type="radio" value="0.2">
+								 	<span><i></i>0.2</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="speed" type="radio" value="0.1">
+								 	<span><i></i>0.1</span>
+							</label>
+							<label class="control-inline fancy-radio">
+								<input name="speed" type="radio" value="0.05">
+								 	<span><i></i>0.05</span>
+							</label>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Schliessen</button>
+					        <button id="paraOszbtn" type="button" class="btn btn-primary">Auswählen</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- End Zahlenreihen -->
+
+
+
+					<!-- Button Fibo, Prim, usweZahlenreihe -->
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+					  Fibo, Prim und co.
+					</button>
+
+
+
+
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">Berühmte Zahlenfolgen</h4>
+					      </div>
+					      <div class="modal-body">
+					        <h4>Wählen Sie</h4>
+					        <label class="control-inline fancy-radio">
+														<input name="inline-radio" type="radio">
+														<span><i></i>Primzahlen</span>
+													</label>
+							<label class="control-inline fancy-radio">
+														<input name="inline-radio" type="radio">
+														<span><i></i>Fibonacci</span>
+													</label>
+
+							<label class="control-inline fancy-radio">
+														<input name="inline-radio" type="radio">
+														<span><i></i>Quadratzahlen</span>
+													</label>
+							<label class="control-inline fancy-radio">
+														<input name="inline-radio" type="radio">
+														<span><i></i>Dreieckszahlen</span>
+													</label>
+
+
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Schliessen</button>
+					        <button type="button" class="btn btn-primary">Auswählen</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- End Zahlenreihen -->
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="footer">© 2015-2016 developped @ PH FHNW</div>
+
+
+    <!-- end body part -->
+
+	<script src="scripts/vendor.js"></script>
+	<script src="scripts/main.js"></script>
+	
+
+	<!-- //@include inc/_analytics.html -->
+</body>
+</html>
