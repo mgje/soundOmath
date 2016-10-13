@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "name": "soundOmath",
   "description": "Playing Sound App",
   "icons": {
@@ -9,6 +9,6 @@
   },
   "developer": {
     "name": "Martin Guggisberg <https://twitter.com/mgje>",
-    "url": ""
+    "url": "http://mgje.github.io"
   }
 }
