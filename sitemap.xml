@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://domain.tld/</loc>
-        <lastmod>2016-02-09T20:25:15.000Z</lastmod>
+        <loc>http://mgje.github.io/soundOmath/</loc>
+        <lastmod>2016-10-14T22:01:22.000Z</lastmod>
     </url>
     <url>
-        <loc>http://domain.tld/indexold.html</loc>
-        <lastmod>2016-02-06T21:34:15.000Z</lastmod>
+        <loc>http://mgje.github.io/soundOmath/indexold.html</loc>
+        <lastmod>2016-10-14T20:41:51.000Z</lastmod>
     </url>
     <url>
-        <loc>http://domain.tld/sound-ios.html</loc>
-        <lastmod>2016-02-06T21:34:15.000Z</lastmod>
+        <loc>http://mgje.github.io/soundOmath/sound-ios.html</loc>
+        <lastmod>2016-10-14T20:41:51.000Z</lastmod>
     </url>
 </urlset>
